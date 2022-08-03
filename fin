@@ -1,0 +1,67 @@
+<html>
+<style>
+table, th, td {
+  border: 1px solid black;
+  bgcolor:"green";
+}
+</style>
+</head>
+<body>
+<center>
+<img src=https://www.financialexpress.com/wp-content/uploads/2022/01/Tata-CLiQ-Luxury_Gourmet-store-powered-by-bigbasket_Image1.jpg alt="Girl in a jacket" width="200" height="200">
+
+<h1>Infy Music for you.....</h1>
+
+<p>Click on the play button to play a sound:</p>
+
+<audio controls>
+  <source src="Infy_Music.ogg" type="audio/ogg">
+  <source src="Infy_Music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio><br><br>
+
+<table>
+  <tr>
+    <th>Venue</th>
+    <th>Vendors</th>
+  </tr>
+  <tr>
+    <td>Arena</td>
+    <td>Amul,Juice Junction</td>
+  </tr>
+  <tr>
+    <td>Vista</td>
+    <td>Dominos</td>
+  </tr>
+  <tr>
+    <td>Mythri</td>
+    <td>PolarBear,KFC</td>
+  </tr>
+  <tr>
+    <td>Magna</td>
+    <td>MetroCool,Dolphin</td>
+  </tr>
+   <tr>
+    <td>Oasis</td>
+    <td>Dolphin,LoyalWorld</td>
+  </tr>
+  <tr>
+    <td>Fiesta</td>
+    <td>PolarBear,Dominos,Chickpunch</td>
+  </tr>
+</table>
+
+<h1>Watch it-Food for thought!</h1>
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+
+</center>
+
+</body>
+</html>
+

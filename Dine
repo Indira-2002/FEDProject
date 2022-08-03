@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Dine Booking</title>
+<script>
+function dinning()
+{
+  var  Visitor_name = document.Dine Booking.Visitor_name;
+  var Number_ofMembers = document.Dine Booking.Number_ofMembers;
+  var Contact_no = document.Dine Booking.Contact_no;
+  var Email = document.Dine Booking.Email;
+  var Type_ofFood = document.Dine Booking.Type_ofFood;
+  var Room_status = document.Dine Booking.Room_status;
+  var Venue_preference = document.Dine Booking.Venue_prefernce;
+  if(Visitor_name.value.length<=20)
+  {
+    alert("name is required")
+    Visitor_name.focus();
+    return false;
+  }
+  if(Number_ofMembers.value.length>100)
+  {
+    alert("Enter in between lessthan 100")
+    Number_ofMembers.focus();
+    return false;
+  }
+  if(Contact_no.value.length<0)
+  {
+    alert("Contact number is required")
+    Contact_no.focus();
+    return false;
+  }
+  if(Email.value.length<0)
+  {
+    alert("Email is required")
+    Email.focus();
+    return false;
+  }
+ return false
+
+}
+</script>
+</head>
+<body>
+<center>
+<h1>Dine Booking</h1>
+<table>
+<tr>
+<td><label1>Visitor Name:</label1></td>
+<td><input type="text" name="Visitor name"></td>
+</tr>
+<tr>
+<td><label2>Number of Members:</label2></td>
+<td><input type="text" name="Number of Members"></td>
+</tr>
+<tr>
+<td><label3>Contact Number:</label3></td>
+<td><input type="text" name="Contact Number"></td>
+</tr>
+<tr>
+<td><label4>Email:</label3></td>
+<td><input type="text" name="Email"></td>
+</tr>
+<tr>
+<td><label3>Contact Number:</label3></td>
+<td><input type="text" name="Contact Number"></td>
+</tr>
+<tr>
+<th>Type of food:</th>
+<td>South indian<input type="checkbox" name="Type of food:" ></td>
+<td>North indian<input type="checkbox" name="Type of food:" ></td>
+<td>Chinese indian<input type="checkbox" name="Type of food:" ></td>
+<td>Western indian<input type="checkbox" name="Type of food:" ></td>
+</tr>
+<tr>
+<th>Room Status:</th>
+<td>AC<input type="radio" name="Room Status:" ></td>
+<td>NON-AC<input type="radio" name="Room Status:" ></td>
+</tr>
+<tr>
+<th>Venue Preference:</th>
+<td>
+  <select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+
+  </select>
+</td>
+</tr>
+  <br><br>
+  <tr>
+  <td><input type="Button" value="Book"></td>
+ 
+   <td><input type="Button" value="Reset"></td>
+
+
+
+</tr>
+</center>
+
+</table>
+
+</body>
+
+
+
+
+
+</html>
+
