@@ -1,0 +1,22 @@
+<html>
+<body>
+<script>
+function alphanumeric(inputtxt)
+{
+ var letterNumber = /[a-z\d][^!@#$%&*()]/i;
+
+ if((inputtxt.match(letterNumber)))
+  {
+   return "it is a regular expression";
+}
+  else
+  { 
+   return "msg"; 
+    
+  }
+}
+const s1=alphanumeric("hfghn46");
+document.write(s1);
+</script>
+</body>
+</html> 
